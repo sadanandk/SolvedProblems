@@ -30,8 +30,8 @@ public class MirrorTree {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void mirror(boolean Recursive) {
-		if ( !Recursive )
+	public void mirror(boolean recursive) {
+		if ( !recursive )
 			mirrorI(root);
 		else
 			mirrorR(root);
